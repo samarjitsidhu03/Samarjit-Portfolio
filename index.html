@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Samarjit Singh Sidhu — Portfolio</title>
+  <style>
+    body {font-family: Arial, sans-serif; background: #0b1020; color: #e2e8f0; margin: 0;}
+    .container {max-width: 900px; margin: auto; padding: 20px;}
+    header {background: #0f172a; padding: 15px 0; text-align: center;}
+    header h1 {margin: 0; color: #22d3ee;}
+    .hero {display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-top: 30px;}
+    .hero img {max-width: 250px; border-radius: 18px; border: 2px solid #22d3ee;}
+    .hero-text {flex: 1;}
+    h2 {border-bottom: 2px solid #22d3ee; padding-bottom: 5px; margin-top: 40px;}
+    .project-card {background: #0f172a; padding: 20px; border-radius: 12px; margin-top: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: transform 0.2s ease;}
+    .project-card:hover {transform: translateY(-5px);}
+    .project-card h3 {margin-top: 0; color: #a78bfa;}
+    a.button-link {display: inline-block; padding: 10px 15px; margin-top: 10px; background: #22d3ee; color: #0b1020; font-weight: bold; border-radius: 6px; text-decoration: none;}
+    a.button-link:hover {background: #1ab6cb;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I’m Samarjit Singh Sidhu</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="WhatsApp Image 2025-08-13 at 14.07.20_3287b74f.jpg" alt="Samarjit Singh Sidhu" />
+      <div class="hero-text">
+        <h2>About Me</h2>
+        <p>I’m Samarjit Singh Sidhu, an aspiring engineer passionate about software development and problem-solving. I enjoy creating functional and user-friendly applications that address real-world problems. My recent work includes a BMI Calculator web app built using HTML, CSS, and JavaScript.</p>
+        <a href="bmi-calculator.html" class="button-link">View BMI Calculator Project</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project</h2>
+      <div class="project-card">
+        <h3>BMI Calculator</h3>
+        <p>A simple yet effective Body Mass Index Calculator that allows users to input their height and weight, and instantly get their BMI along with a health category.</p>
+        <a href="bmi-calculator.html" class="button-link">Open Project</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
